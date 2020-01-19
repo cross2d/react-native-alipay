@@ -1,6 +1,6 @@
 {
   "name": "@cross2d/react-native-alipay",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "colin3dmax",
   "description": "支付宝功能接入SDK",
   "keywords": [
@@ -15,7 +15,7 @@
     "glob": "5.0.15",
     "inquirer": "1.1.2",
     "plist": "1.2.0",
-    "lodash": "4.17.2",
+    "lodash": "4.17.12",
     "xcode": "0.8.9",
     "path": "0.12.7"
   },
