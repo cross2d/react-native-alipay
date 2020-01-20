@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks   = 'ios/SDK/AlipaySDK.framework'
 
   s.pod_target_xcconfig = {
-    "FRAMEWORK_SEARCH_PATHS" => '$(inherited) $(SRCROOT)/../../node_modules/@cross2d/react-native-alipay/ios/SDK/'
+    "FRAMEWORK_SEARCH_PATHS" => '$(inherited) $(SRCROOT)/../../node_modules/@cross2d/react-native-alipay/ios/SDK/',
+    "LIBRARY_SEARCH_PATHS" => '$(inherited) $(SRCROOT)/../../node_modules/@cross2d/react-native-alipay/ios/SDK/'
   }
   s.library = 'c++'
   s.frameworks = [
