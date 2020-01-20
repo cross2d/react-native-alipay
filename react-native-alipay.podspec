@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/cross2d/react-native-alipay.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
   s.resource              = '$(SRCROOT)/../node_modules/react-native-alipay/ios/SDK/AlipaySDK.bundle'
-  s.vendored_frameworks   = '$(SRCROOT)/../node_modules/react-native-alipay/ios/SDK/AlipaySDK.framework'
+  s.ios.vendored_frameworks   = 'ios/SDK/AlipaySDK.framework'
 
   s.pod_target_xcconfig = {
     "FRAMEWORK_SEARCH_PATHS" => '$(inherited) $(SRCROOT)/../../node_modules/@cross2d/react-native-alipay/ios/SDK/'
@@ -30,8 +30,7 @@ Pod::Spec.new do |s|
       "UIKit",
       "Foundation",
       "CFNetwork",
-      "CoreMotion",
-      "AlipaySDK",
+      "CoreMotion"
   ]
   s.dependency 'React'
 end
