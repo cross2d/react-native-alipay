@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     "FRAMEWORK_SEARCH_PATHS" => '$(inherited) $(SRCROOT)/../../node_modules/@cross2d/react-native-alipay/ios/SDK/',
     "LIBRARY_SEARCH_PATHS" => '$(inherited) $(SRCROOT)/../../node_modules/@cross2d/react-native-alipay/ios/SDK/'
   }
-  s.library = 'c++'
+  s.library = 'c++','z'
   s.frameworks = [
       "SystemConfiguration",
       "CoreTelephony",

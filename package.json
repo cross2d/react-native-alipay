@@ -1,6 +1,6 @@
 {
   "name": "@cross2d/react-native-alipay",
-  "version": "1.0.14",
+  "version": "1.0.16",
   "author": "colin3dmax",
   "description": "支付宝功能接入SDK",
   "keywords": [
@@ -29,28 +29,6 @@
   "optionalDependencies": {},
   "scripts": {
     "release": "npm publish --access public"
-  },
-  "rnpm": {
-    "ios": {
-      "sharedLibraries": [
-        "libc++",
-        "libz",
-        "SystemConfiguration",
-        "CoreTelephony",
-        "QuartzCore",
-        "CoreText",
-        "CoreGraphics",
-        "UIKit",
-        "Foundation",
-        "CFNetwork",
-        "CoreMotion",
-        "AlipaySDK.framework"
-      ]
-    },
-    "commands": {
-      "postlink": "node node_modules/@cross2d/react-native-alipay/scripts/postlink/postlink",
-      "postunlink": "node node_modules/@cross2d/react-native-alipay/scripts/postunlink/postunlink"
-    }
   },
   "repository": {
     "type": "git",
