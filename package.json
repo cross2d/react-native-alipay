@@ -14,7 +14,7 @@
   "dependencies": {
     "glob": "5.0.15",
     "inquirer": "1.1.2",
-    "plist": "1.2.0",
+    "plist": "3.0.4",
     "lodash": "4.17.12",
     "xcode": "0.8.9",
     "path": "0.12.7"
